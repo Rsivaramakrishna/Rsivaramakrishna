@@ -1,153 +1,237 @@
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" width="820" height="340">
+  <defs>
+    <!-- Dithered Monochrome Pattern -->
+    <pattern id="dither" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#0a0a0a"/>
+      <rect x="0" y="0" width="3" height="3" fill="#171717"/>
+      <rect x="3" y="3" width="3" height="3" fill="#171717"/>
+    </pattern>
 
-```text
-╔══════════════════════════════════════════════════════════════════════════╗
-║  SRK-OS v1.0 // MONOCHROME 8-BIT DEVELOPER TERMINAL                      ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                          ║
-║    ███████╗██████╗ ██╗  ██╗      R. SIVA RAMA KRISHNA                    ║
-║    ██╔════╝██╔══██╗██║ ██╔╝      AI/ML & Backend Software Engineer       ║
-║    ███████╗██████╔╝█████╔╝       Hyderabad, India                        ║
-║    ╚════██║██╔══██╗██╔═██╗                                               ║
-║    ███████║██║  ██║██║  ██╗      [ STATUS: ONLINE & OPEN TO WORK ]       ║
-║    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝                                              ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+    <!-- Scanline Overlay Pattern -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="rgba(255,255,255,0)"/>
+      <rect y="2" width="4" height="2" fill="rgba(0,0,0,0.32)"/>
+    </pattern>
 
-<p>
-  <a href="https://github.com/Sivaramakrishna1146">
-    <img src="https://img.shields.io/badge/GITHUB-Sivaramakrishna1146-0a0a0a?style=for-the-badge&logo=github&logoColor=fafafa" alt="GitHub" />
-  </a>
-  <a href="mailto:Sivaramakrishnarachakulla@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-CONTACT_ME-262626?style=for-the-badge&logo=gmail&logoColor=fafafa" alt="Email" />
-  </a>
-  <a href="https://sivaramakrishna1146.github.io">
-    <img src="https://img.shields.io/badge/LIVE_CONSOLE-LAUNCH_OS-fafafa?style=for-the-badge&logoColor=0a0a0a" alt="Live Console" />
-  </a>
-</p>
+    <!-- Viewport Clip Path for Sliding Panels -->
+    <clipPath id="viewport-clip">
+      <rect x="28" y="64" width="764" height="224"/>
+    </clipPath>
+  </defs>
 
-</div>
+  <!-- Outer Handheld Console Bezel -->
+  <rect x="0" y="0" width="820" height="340" fill="url(#dither)"/>
+  <rect x="8" y="8" width="804" height="324" fill="#141414" stroke="#fafafa" stroke-width="4"/>
+  <rect x="16" y="16" width="788" height="308" fill="#0a0a0a" stroke="#737373" stroke-width="2"/>
 
----
+  <!-- Top Console Status Header -->
+  <rect x="28" y="24" width="764" height="32" fill="#fafafa"/>
+  <text x="40" y="45" font-family="monospace" font-size="14" font-weight="bold" fill="#0a0a0a">
+    SRK-OS v1.0 // R. SIVA RAMA KRISHNA — MONOCHROME 8-BIT TERMINAL
+  </text>
+  <text x="695" y="45" font-family="monospace" font-size="13" font-weight="bold" fill="#0a0a0a">
+    [BAT: 100%]
+  </text>
 
-### `> SELECT_OPTION [CLICK ANY MENU ITEM TO EXPAND DATA]`
+  <!-- Fixed-Size Sliding Viewport -->
+  <g clip-path="url(#viewport-clip)">
+    <rect x="28" y="64" width="764" height="224" fill="#121212"/>
 
-<details open>
-<summary><b>▶ [ 01 ] PLAYER PROFILE // BIO & PHILOSOPHY</b></summary>
-<br />
+    <!-- SLIDE 01: PLAYER PROFILE (0s - 4s, slides out left at 4s) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,0; -780,0; -780,0; 780,0; 0,0"
+        keyTimes="0; 0.18; 0.20; 0.98; 0.981; 1"
+        dur="20s" repeatCount="indefinite"/>
 
-```text
-┌──────────────────────────────────────────────────────────────────────────┐
-│ CLASS      : AI/ML & Backend Software Engineer                           │
-│ EDUCATION  : B.E. in Computer Science Engineering (Chandigarh University)│
-│ LOCATION   : Hyderabad, Telangana, India                                 │
-│ PHILOSOPHY : "Master low-level algorithmic logic before relying on       │
-│               high-level abstractions."                                  │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+      <rect x="42" y="76" width="736" height="200" fill="#1c1c1c" stroke="#fafafa" stroke-width="2"/>
+      <rect x="42" y="76" width="210" height="28" fill="#fafafa"/>
+      <text x="52" y="95" font-family="monospace" font-size="13" font-weight="bold" fill="#0a0a0a">
+        ▶ [01] PLAYER PROFILE
+      </text>
+      <text x="620" y="95" font-family="monospace" font-size="12" fill="#a3a3a3">
+        SCREEN 01 / 05
+      </text>
 
-- **About Me:** Computer Science graduate specializing in **Python**, **Deep Learning (PyTorch/TensorFlow)**, **Computer Vision**, **LLMs/RAG**, and **REST APIs**.
-- **Engineering Approach:** Focused on writing clean, memory-efficient algorithmic logic, low-latency backend services, and production-ready AI diagnostic pipelines.
-- **Academic Log:**
-  - **B.E. in Computer Science Engineering** — Chandigarh University (`2022 – 2025`) | CGPA: `7.53`
-  - **Diploma in Computer Science Engineering** — AANM & VVRSR Polytechnic College (`2019 – 2022`) | `83.4%`
+      <!-- Pixel Avatar Frame -->
+      <rect x="62" y="118" width="84" height="84" fill="#0a0a0a" stroke="#d4d4d4" stroke-width="2"/>
+      <rect x="86" y="128" width="36" height="10" fill="#fafafa"/>
+      <rect x="80" y="138" width="48" height="28" fill="#d4d4d4"/>
+      <rect x="90" y="146" width="8" height="8" fill="#0a0a0a"/>
+      <rect x="110" y="146" width="8" height="8" fill="#0a0a0a"/>
+      <rect x="76" y="170" width="56" height="24" fill="#737373"/>
+      <rect x="94" y="170" width="20" height="24" fill="#fafafa"/>
 
-</details>
+      <!-- Profile Details -->
+      <text x="166" y="136" font-family="monospace" font-size="17" font-weight="bold" fill="#fafafa">
+        AI/ML &amp; BACKEND SOFTWARE ENGINEER
+      </text>
+      <text x="166" y="160" font-family="monospace" font-size="13" fill="#d4d4d4">
+        EDUCATION : B.E. CSE — Chandigarh University (2022–2025 | CGPA: 7.53)
+      </text>
+      <text x="166" y="182" font-family="monospace" font-size="13" fill="#d4d4d4">
+        LOCATION  : Hyderabad, Telangana, India
+      </text>
+      <text x="166" y="204" font-family="monospace" font-size="13" fill="#fafafa">
+        FOCUS     : Python, Deep Learning, Computer Vision, LLMs/RAG, REST APIs
+      </text>
+      <rect x="62" y="218" width="696" height="42" fill="#0a0a0a" stroke="#737373" stroke-width="1.5"/>
+      <text x="76" y="244" font-family="monospace" font-size="12" fill="#d4d4d4">
+        &gt; MOTTO: "Master low-level algorithmic logic before relying on abstractions."
+      </text>
+    </g>
 
----
+    <!-- SLIDE 02: ARSENAL / SKILLS (Slides in from right at 3.6s - 4.0s) -->
+    <g transform="translate(780,0)">
+      <animateTransform attributeName="transform" type="translate"
+        values="780,0; 780,0; 0,0; 0,0; -780,0; -780,0"
+        keyTimes="0; 0.18; 0.20; 0.38; 0.40; 1"
+        dur="20s" repeatCount="indefinite"/>
 
-<details>
-<summary><b>▶ [ 02 ] INVENTORY // TECH STACK & STAT BARS</b></summary>
-<br />
+      <rect x="42" y="76" width="736" height="200" fill="#1c1c1c" stroke="#fafafa" stroke-width="2"/>
+      <rect x="42" y="76" width="220" height="28" fill="#fafafa"/>
+      <text x="52" y="95" font-family="monospace" font-size="13" font-weight="bold" fill="#0a0a0a">
+        ▶ [02] TECH ARSENAL
+      </text>
+      <text x="620" y="95" font-family="monospace" font-size="12" fill="#a3a3a3">
+        SCREEN 02 / 05
+      </text>
 
-```text
-PYTHON & ALGORITHMS   [████████████████████] 95%  // OOP, Manual Logic, DSA
-DEEP LEARNING & CV    [██████████████████░░] 90%  // PyTorch, TensorFlow, CNNs, YOLOv5
-NLP, LLMs & RAG       [█████████████████░░░] 85%  // T5 Seq2Seq, Ollama, Vector Search
-SQL, APIS & CLOUD     [█████████████████░░░] 85%  // REST APIs, FastAPI, Docker, AWS/GCP
-```
+      <!-- Monochrome Stat Bars -->
+      <text x="64" y="132" font-family="monospace" font-size="13" font-weight="bold" fill="#fafafa">
+        PYTHON &amp; ALGORITHMS  [████████████████████] 95%
+      </text>
+      <text x="64" y="160" font-family="monospace" font-size="13" font-weight="bold" fill="#fafafa">
+        DEEP LEARNING &amp; CV   [██████████████████░░] 90%
+      </text>
+      <text x="64" y="188" font-family="monospace" font-size="13" font-weight="bold" fill="#fafafa">
+        NLP, LLMs &amp; RAG      [█████████████████░░░] 85%
+      </text>
+      <text x="64" y="216" font-family="monospace" font-size="13" font-weight="bold" fill="#fafafa">
+        SQL, APIS &amp; CLOUD    [█████████████████░░░] 85%
+      </text>
 
-#### **Equipped Modules**
-- **Languages & Databases:**
-  ![Python](https://img.shields.io/badge/Python-1c1c1c?style=flat-square&logo=python&logoColor=fafafa)
-  ![SQL](https://img.shields.io/badge/SQL-1c1c1c?style=flat-square&logo=postgresql&logoColor=fafafa)
-  ![SQLite](https://img.shields.io/badge/SQLite-1c1c1c?style=flat-square&logo=sqlite&logoColor=fafafa)
-  ![C](https://img.shields.io/badge/C-1c1c1c?style=flat-square&logo=c&logoColor=fafafa)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-1c1c1c?style=flat-square&logo=javascript&logoColor=fafafa)
+      <rect x="62" y="232" width="696" height="32" fill="#0a0a0a" stroke="#737373" stroke-width="1.5"/>
+      <text x="76" y="253" font-family="monospace" font-size="12" fill="#d4d4d4">
+        STACK: PyTorch | TensorFlow | YOLOv5 | OpenCV | T5 | FastAPI | SQL | Docker
+      </text>
+    </g>
 
-- **AI, Computer Vision & NLP:**
-  ![PyTorch](https://img.shields.io/badge/PyTorch-262626?style=flat-square&logo=pytorch&logoColor=fafafa)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-262626?style=flat-square&logo=tensorflow&logoColor=fafafa)
-  ![Keras](https://img.shields.io/badge/Keras-262626?style=flat-square&logo=keras&logoColor=fafafa)
-  ![OpenCV](https://img.shields.io/badge/OpenCV-262626?style=flat-square&logo=opencv&logoColor=fafafa)
-  ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-262626?style=flat-square&logo=scikitlearn&logoColor=fafafa)
-  ![HuggingFace](https://img.shields.io/badge/T5_&_LLMs-262626?style=flat-square&logo=huggingface&logoColor=fafafa)
+    <!-- SLIDE 03: QUEST LOG / PROJECTS (Slides in from right at 7.6s - 8.0s) -->
+    <g transform="translate(780,0)">
+      <animateTransform attributeName="transform" type="translate"
+        values="780,0; 780,0; 0,0; 0,0; -780,0; -780,0"
+        keyTimes="0; 0.38; 0.40; 0.58; 0.60; 1"
+        dur="20s" repeatCount="indefinite"/>
 
-- **Backend, Cloud & DevOps:**
-  ![FastAPI](https://img.shields.io/badge/FastAPI_/_REST-3f3f46?style=flat-square&logo=fastapi&logoColor=fafafa)
-  ![Docker](https://img.shields.io/badge/Docker-3f3f46?style=flat-square&logo=docker&logoColor=fafafa)
-  ![Kubernetes](https://img.shields.io/badge/Kubernetes-3f3f46?style=flat-square&logo=kubernetes&logoColor=fafafa)
-  ![AWS](https://img.shields.io/badge/AWS-3f3f46?style=flat-square&logo=amazonaws&logoColor=fafafa)
-  ![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-3f3f46?style=flat-square&logo=ubuntu&logoColor=fafafa)
-  ![Git](https://img.shields.io/badge/Git_&_GitHub-3f3f46?style=flat-square&logo=git&logoColor=fafafa)
+      <rect x="42" y="76" width="736" height="200" fill="#1c1c1c" stroke="#fafafa" stroke-width="2"/>
+      <rect x="42" y="76" width="210" height="28" fill="#fafafa"/>
+      <text x="52" y="95" font-family="monospace" font-size="13" font-weight="bold" fill="#0a0a0a">
+        ▶ [03] QUEST LOG
+      </text>
+      <text x="620" y="95" font-family="monospace" font-size="12" fill="#a3a3a3">
+        SCREEN 03 / 05
+      </text>
 
-</details>
+      <text x="64" y="130" font-family="monospace" font-size="13" font-weight="bold" fill="#fafafa">
+        [BOSS-01] Lung Cancer Detection Using ML (Published 2025) — 89% Val Acc
+      </text>
+      <text x="64" y="158" font-family="monospace" font-size="13" fill="#d4d4d4">
+        [QUEST-2] Automatic Number Plate Recognition (YOLOv5/OpenCV) — 95%+ Acc
+      </text>
+      <text x="64" y="186" font-family="monospace" font-size="13" fill="#d4d4d4">
+        [QUEST-3] Text Summarization &amp; Extraction (T5 Seq2Seq) — ROUGE Tuned
+      </text>
+      <text x="64" y="214" font-family="monospace" font-size="13" fill="#d4d4d4">
+        [QUEST-4] Local RAG Chatbot (Ollama) &amp; AI Voice Assistant (STT/TTS)
+      </text>
 
----
+      <rect x="62" y="232" width="696" height="32" fill="#0a0a0a" stroke="#737373" stroke-width="1.5"/>
+      <text x="76" y="253" font-family="monospace" font-size="12" fill="#fafafa">
+        &gt; ALL QUESTS VERIFIED &amp; DEPLOYED ON GITHUB.COM/SIVARAMAKRISHNA1146
+      </text>
+    </g>
 
-<details>
-<summary><b>▶ [ 03 ] QUEST LOG // RESEARCH & FEATURED PROJECTS</b></summary>
-<br />
+    <!-- SLIDE 04: TROPHIES & CERTS (Slides in from right at 11.6s - 12.0s) -->
+    <g transform="translate(780,0)">
+      <animateTransform attributeName="transform" type="translate"
+        values="780,0; 780,0; 0,0; 0,0; -780,0; -780,0"
+        keyTimes="0; 0.58; 0.60; 0.78; 0.80; 1"
+        dur="20s" repeatCount="indefinite"/>
 
-| Quest ID | Project / Publication | Core Stack | Key Outcome |
-| :--- | :--- | :--- | :--- |
-| **`BOSS-01`** | **Lung Cancer Detection Using ML** *(Published Research)* | `Python` `Keras` `OpenCV` `CNNs` | **89% Validation Accuracy** across 3 histopathological classes |
-| **`QUEST-02`** | **Automatic Number Plate Recognition (ANPR)** | `Python` `YOLOv5` `OpenCV` `TF` | **95%+ Detection Accuracy** in real-time traffic streams |
-| **`QUEST-03`** | **Text Summarization & Insight Extraction** | `Python` `T5 Transformer` `NLP` | **ROUGE-Optimized** Seq2Seq document condensation |
-| **`QUEST-04`** | **Local RAG Chatbot & AI Voice Assistant** | `Python` `Ollama` `STT/TTS` `APIs` | Private document QA + real-time voice command execution |
+      <rect x="42" y="76" width="736" height="200" fill="#1c1c1c" stroke="#fafafa" stroke-width="2"/>
+      <rect x="42" y="76" width="230" height="28" fill="#fafafa"/>
+      <text x="52" y="95" font-family="monospace" font-size="13" font-weight="bold" fill="#0a0a0a">
+        ▶ [04] ACHIEVEMENTS
+      </text>
+      <text x="620" y="95" font-family="monospace" font-size="12" fill="#a3a3a3">
+        SCREEN 04 / 05
+      </text>
 
-#### **Mission Briefings**
-- **`[BOSS-01]` Lung Cancer Histopathology Classification:** Architected a custom CNN with OpenCV preprocessing (resizing, normalization, data augmentation) to classify Adenocarcinoma, Squamous Cell Carcinoma, and Normal Tissue, validated using Confusion Matrix and F1-Score metrics.
-- **`[QUEST-02]` Real-Time ANPR System:** Annotated a custom dataset and trained YOLOv5 for high-speed license plate localization under diverse lighting and camera angles.
-- **`[QUEST-03]` Seq2Seq Text Summarizer:** Built a T5-powered abstractive summarization pipeline with tokenization, lemmatization, and hyperparameter tuning.
+      <text x="64" y="132" font-family="monospace" font-size="13" font-weight="bold" fill="#fafafa">
+        ★ Advanced Machine Learning on Google Cloud — Google Cloud
+      </text>
+      <text x="64" y="160" font-family="monospace" font-size="13" fill="#d4d4d4">
+        ★ Computer Vision Fundamentals with Google Cloud — Google Cloud
+      </text>
+      <text x="64" y="188" font-family="monospace" font-size="13" fill="#d4d4d4">
+        ★ Databases and SQL for Data Science with Python — IBM
+      </text>
+      <text x="64" y="216" font-family="monospace" font-size="13" fill="#d4d4d4">
+        ★ Python for Data Science, AI &amp; Development — IBM
+      </text>
 
-</details>
+      <rect x="62" y="232" width="696" height="32" fill="#0a0a0a" stroke="#737373" stroke-width="1.5"/>
+      <text x="76" y="253" font-family="monospace" font-size="12" fill="#fafafa">
+        HACKATHON: CISCO CODATHON AP (Cisco Networking Academy)
+      </text>
+    </g>
 
----
+    <!-- SLIDE 05: WARP LINK / CONTACT (Slides in from right at 15.6s - 16.0s) -->
+    <g transform="translate(780,0)">
+      <animateTransform attributeName="transform" type="translate"
+        values="780,0; 780,0; 0,0; 0,0; -780,0"
+        keyTimes="0; 0.78; 0.80; 0.98; 1"
+        dur="20s" repeatCount="indefinite"/>
 
-<details>
-<summary><b>▶ [ 04 ] ACHIEVEMENTS // CERTIFICATIONS & HACKATHONS</b></summary>
-<br />
+      <rect x="42" y="76" width="736" height="200" fill="#1c1c1c" stroke="#fafafa" stroke-width="2"/>
+      <rect x="42" y="76" width="210" height="28" fill="#fafafa"/>
+      <text x="52" y="95" font-family="monospace" font-size="13" font-weight="bold" fill="#0a0a0a">
+        ▶ [05] WARP LINK
+      </text>
+      <text x="620" y="95" font-family="monospace" font-size="12" fill="#a3a3a3">
+        SCREEN 05 / 05
+      </text>
 
-- 🏅 **Advanced Machine Learning on Google Cloud** — *Google Cloud*
-- 🏅 **Computer Vision Fundamentals with Google Cloud** — *Google Cloud*
-- 🏅 **Databases and SQL for Data Science with Python** — *IBM*
-- 🏅 **Python for Data Science, AI & Development** — *IBM*
-- 🌐 **CISCO CODATHON AP** — *Cisco Networking Academy (2020)*
+      <text x="64" y="136" font-family="monospace" font-size="15" font-weight="bold" fill="#fafafa">
+        STATUS : OPEN FOR SOFTWARE ENGINEER &amp; AI/ML ROLES
+      </text>
+      <text x="64" y="168" font-family="monospace" font-size="14" fill="#d4d4d4">
+        EMAIL  : Sivaramakrishnarachakulla@gmail.com
+      </text>
+      <text x="64" y="196" font-family="monospace" font-size="14" fill="#d4d4d4">
+        PHONE  : +91-9121141146
+      </text>
+      <text x="64" y="224" font-family="monospace" font-size="14" fill="#fafafa">
+        GITHUB : https://github.com/Sivaramakrishna1146
+      </text>
 
-</details>
+      <rect x="62" y="238" width="696" height="28" fill="#fafafa"/>
+      <text x="76" y="257" font-family="monospace" font-size="12" font-weight="bold" fill="#0a0a0a">
+        &gt; CLICK ANY MONOCHROME OPTION BOX BELOW TO INSPECT FULL LOGS
+      </text>
+    </g>
 
----
+    <!-- Subtle CRT Scanline Layer -->
+    <rect x="28" y="64" width="764" height="224" fill="url(#scanlines)" pointer-events="none"/>
+  </g>
 
-<details>
-<summary><b>▶ [ 05 ] WARP LINK // CONNECT & SYSTEM STATS</b></summary>
-<br />
-
-```text
-> DIRECT EMAIL : Sivaramakrishnarachakulla@gmail.com
-> PHONE        : +91-9121141146
-> GITHUB       : https://github.com/Sivaramakrishna1146
-```
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sivaramakrishna1146&show_icons=true&title_color=fafafa&text_color=d4d4d4&icon_color=fafafa&bg_color=0a0a0a&border_color=737373" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sivaramakrishna1146&layout=compact&title_color=fafafa&text_color=d4d4d4&bg_color=0a0a0a&border_color=737373" alt="Top Languages" height="165" />
-</div>
-
-</details>
-
----
-
-<div align="center">
-  <sub><code>[ EOF // SYSTEM READY — BUILT IN MONOCHROME 8-BIT STYLE ]</code></sub>
-</div>
+  <!-- Bottom Console Menu Bar -->
+  <rect x="28" y="294" width="764" height="22" fill="#1c1c1c" stroke="#737373" stroke-width="1"/>
+  <text x="40" y="309" font-family="monospace" font-size="11" fill="#fafafa">
+    [01] PROFILE   |   [02] ARSENAL   |   [03] QUESTS   |   [04] TROPHIES   |   [05] CONTACT
+  </text>
+  <text x="655" y="309" font-family="monospace" font-size="11" fill="#a3a3a3">
+    AUTO-SLIDE: R→L
+  </text>
+</svg>
