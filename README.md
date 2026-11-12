@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- NOTHING OS TOP STATUS BAR -->
-<img src="https://img.shields.io/badge/■_NOTHING_OS_//_SRK--01-0A0A0A?style=for-the-badge" alt="Nothing OS"/>
+<img src="https://img.shields.io/badge/■_OWN_OS_//_SRK--01-0A0A0A?style=for-the-badge" alt="Nothing OS"/>
 <img src="https://img.shields.io/badge/01_%2Fabout_→_02_%2Fskills_→_03_%2Fprojects_→_04_%2Fcerts_→_05_%2Fcontact-171717?style=for-the-badge" alt="Menu Sequence"/>
 
 <br/><br/>
