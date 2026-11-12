@@ -29,10 +29,3 @@
 </div>
 
 ---
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Rsivaramakrishna&show_icons=true&bg_color=0a0a0a&title_color=fafafa&text_color=d4d4d4&icon_color=fafafa&border_color=404040&hide_border=false" alt="SRK GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rsivaramakrishna&layout=compact&bg_color=0a0a0a&title_color=fafafa&text_color=d4d4d4&border_color=404040&hide_border=false" alt="Top Languages" height="165" />
-
-</div>
