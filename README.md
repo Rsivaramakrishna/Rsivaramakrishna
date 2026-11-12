@@ -6,10 +6,21 @@
 
 <br/><br/>
 
-<!-- FULL BLACK DOT-MATRIX SCREEN: SHOWS MENU 01 FIRST, SLIDES OUT LEFT, NEXT MENU ENTERS RIGHT-TO-LEFT -->
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=1200&pause=3200&color=FAFAFA&background=0A0A0A&center=true&vCenter=true&width=840&height=170&lines=%5B01+%2Fabout%5D+R.+SIVA+RAMA+KRISHNA+(SRK)+%7C+AI%2FML+%26+BACKEND+ENG+%7C+ONGOLE%2C+IN;%5B02+%2Fskills%5D+PYTHON+%E2%80%A2+PYTORCH+%E2%80%A2+TF+%E2%80%A2+YOLOv5+%E2%80%A2+OPENCV+%E2%80%A2+T5+%E2%80%A2+RAG+%E2%80%A2+SQL;%5B03+%2Fprojects%5D+LUNG+CANCER+CNN+(89%25+PUB)+%7C+ANPR+YOLOv5+(95%25%2B)+%7C+LOCAL+RAG;%5B04+%2Fcerts%5D+PUBLISHED+ML+PAPER+(2025)+%7C+GOOGLE+CLOUD+ML+%7C+IBM+PYTHON+%7C+CISCO;%5B05+%2Fcontact%5D+Sivaramakrishnarachakulla%40gmail.com+%7C+OPEN+FOR+AI%2FML+ROLES" alt="Nothing OS Sliding Matrix" />
+<!-- UNIFIED FULL-BLACK DOT-MATRIX MULTI-LINE DISPLAY (6-SECOND PAUSE PER SCREEN) -->
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#0A0A0A">
+  <tr>
+    <td align="center" bgcolor="#0A0A0A">
+      <!-- LINE 1: ACTIVE SECTION HEADER -->
+      <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=900&pause=6000&color=FAFAFA&background=0A0A0A&center=true&vCenter=true&width=840&height=48&lines=%E2%96%A0+%5B+01+%2Fabout+%5D+SYSTEM+IDENTITY;%E2%96%A0+%5B+02+%2Fskills+%5D+DOT-MATRIX+ARSENAL;%E2%96%A0+%5B+03+%2Fprojects+%5D+GLYPH+QUEST+LOG;%E2%96%A0+%5B+04+%2Fcerts+%5D+UNLOCKED+ACHIEVEMENTS;%E2%96%A0+%5B+05+%2Fcontact+%5D+ESTABLISH+WARP+LINK" alt="Header Track" /><br/>
+      <!-- LINE 2: PRIMARY DETAILS -->
+      <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=900&pause=6000&color=D4D4D4&background=0A0A0A&center=true&vCenter=true&width=840&height=44&lines=RACHAKULLA+SIVA+RAMA+KRISHNA+(SRK)+%7C+AI%2FML+%26+BACKEND+ENG;CODE+%3A%3A+PYTHON+%E2%80%A2+SQL+%E2%80%A2+C+%E2%80%A2+JAVASCRIPT+%E2%80%A2+FASTAPI+%E2%80%A2+FLASK;%5B1%5D+LUNG+CANCER+CNN+(89%25+PUBLISHED)+%7C+%5B2%5D+YOLOv5+ANPR+(95%25%2B);%E2%98%85+PUBLISHED+AI+HEALTHCARE+RESEARCH+PAPER+(2025);EMAIL+%3A%3A+Sivaramakrishnarachakulla%40gmail.com" alt="Line 2 Track" /><br/>
+      <!-- LINE 3: SECONDARY DETAILS -->
+      <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=900&pause=6000&color=A3A3A3&background=0A0A0A&center=true&vCenter=true&width=840&height=44&lines=B.E.+CSE+(AI+%26+ML)+%E2%80%94+CHANDIGARH+UNIV.+%7C+ONGOLE%2C+INDIA;AI%2FML+%3A%3A+PYTORCH+%E2%80%A2+TENSORFLOW+%E2%80%A2+YOLOv5+%E2%80%A2+OPENCV+%E2%80%A2+T5+%E2%80%A2+RAG;%5B3%5D+T5+TEXT+SUMMARIZER+(ROUGE)+%7C+%5B4%5D+LOCAL+OLLAMA+RAG+AGENT;%E2%98%85+GOOGLE+CLOUD+ML+%E2%80%A2+IBM+DATA+SCIENCE+%E2%80%A2+CISCO+CODATHON;KAGGLE+%3A%3A+kaggle.com%2Frsivaramakrishna+%7C+OPEN+FOR+ROLES" alt="Line 3 Track" />
+    </td>
+  </tr>
+</table>
 
-<br/><br/>
+<br/>
 
 <!-- DIRECT CONTACT PILLS (NO REPO REDIRECTS) -->
 <a href="mailto:Sivaramakrishnarachakulla@gmail.com"><img src="https://img.shields.io/badge/GLYPH_MAIL-FAFAFA?style=for-the-badge&logo=gmail&logoColor=black" alt="Email"/></a>
